@@ -2,6 +2,12 @@ import sys
 import socket
 import argparse
 
+# IMPORTANT INFO WHEN RUNNING: Must run the following line
+# python3 pet_client.py <server ip address> <server port>
+# Must run after server is already running
+# FOR EXAMPLE: if server is running on localhost 8080, enter the following line
+# python3 pet_server.py localhost 8080
+
 message_delim = "$%$"
 
 def main():
